@@ -1,0 +1,8 @@
+.image-container {
+  border: 2px solid black; /* Defines border */
+  padding: 10px; /* Adds spacing inside */
+  margin: 10px 0; /* Adds spacing between elements */
+  border-radius: 8px; /* Rounds corners */
+  background-color: #f9f9f9; /* Light gray background */
+  text-align: center; /* Centers text */
+}
