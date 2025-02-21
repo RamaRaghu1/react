@@ -5,38 +5,13 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+.image-container {
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+ gap: 2px;
+  border: 2px solid black; /* Defines border */
+  padding: 10px; /* Adds spacing inside */
+  margin: 10px 0; /* Adds spacing between elements */
+  border-radius: 8px; /* Rounds corners */
+  background-color: #f9f9f9; /* Light gray background */
+  text-align: center; /* Centers text */
 }
