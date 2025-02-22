@@ -1,0 +1,27 @@
+.game {
+  max-width: calc(3 * 100px);
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.status {
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  font-size: 36px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.cell:hover {
+  background-color: beige;
+}
